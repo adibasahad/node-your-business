@@ -1,0 +1,24 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+
+
+.container{
+    font-weight: bolder;
+    text-align: center;
+    padding: 200px
+}
+
+
+.btn{
+    background-color:#887e7e;
+    border-color: #887e7e;
+    padding: 2px;
+    color:antiquewhite;
+}
+.btn:hover {
+    background-color: antiquewhite;
+    border-radius: 8px;
+    color: #887e7e;
+}

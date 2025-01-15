@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+ }
+ 
+ul{
+     list-style: none;
+    padding: 0;
+}
+
+li {
+    color: antiquewhite ;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #887e7e ;
+    border: 1px solid  #887e7e;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+li:hover{
+    background-color: antiquewhite;
+    border-radius: 8px;
+    color: #887e7e;
+}
+
+
+.icon{
+    cursor: pointer;
+}
+
+.icon:hover {
+    background-color: antiquewhite;
+    border-radius: 8px;
+    color: #887e7e;
+}

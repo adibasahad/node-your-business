@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #887e7e;
+    color: antiquewhite;
+    text-align: center;
+    text-decoration: underline;
+    font-size: larger;
+    font-weight: bold;
+}
