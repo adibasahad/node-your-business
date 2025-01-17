@@ -19,9 +19,13 @@ export default function Addtodo() {
         }
 
         try {
-            const response = await axios.post(`${process.env.REACT_APP_BACKEND_URL}/todolist/`, {
+            console.log('Sending request to:', `${process.env.REACT_APP_BACKEND_URL}/todolist`);
+            console.log('Payload:', { message });
+        
+            const response = await axios.post(`${process.env.REACT_APP_BACKEND_URL}/todolist`, {
                 message: message,
             });
+        
             if (response.data.success === 'created') {
                 window.location.reload();
             }
