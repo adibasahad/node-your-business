@@ -44,20 +44,21 @@ export default function Addtodo() {
                 console.error('Error Message:', error.message);
             }
         }
-
-        return (
-            <div className="container">
-                {/* input for message */}
-                <input
-                    type="text"
-                    placeholder="Add task here"
-                    onChange={(e) => setMessage(e.target.value)}
-                />
-                <br></br> <br></br>
-                {/* add button */}
-                <button onClick={createTodo} className="btn">
-                    Add
-                </button>
-            </div>
-        );
     }
+
+    return (
+        <div className="container">
+            {/* input for message */}
+            <input
+                type="text"
+                placeholder="Add task here"
+                onChange={(e) => setMessage(e.target.value)}
+            />
+            <br></br> <br></br>
+            {/* add button */}
+            <button onClick={createTodo} className="btn">
+                Add
+            </button>
+        </div>
+    );
+}
