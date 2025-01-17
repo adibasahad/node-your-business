@@ -22,10 +22,10 @@ export default function Addtodo() {
             const backendUrl = process.env.REACT_APP_BACKEND_URL;
             console.log('Backend URL:', backendUrl);
 
-            console.log('Sending request to:', `${backendUrl}/todolist`);
+            console.log('Sending request to:', `${backendUrl}/todolist/`);
             console.log('Payload:', { message });
 
-            const response = await axios.post(`${backendUrl}/todolist`, {
+            const response = await axios.post(`${backendUrl}/todolist/`, {
                 message: message,
             });
 
